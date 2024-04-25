@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+#left ,#right{
+    height: 50vh;
+    width: 20vw;
+    background-color: antiquewhite;
+    margin-left: 2rem;
+    
+}
+.list{
+    width: 15vw;
+    height: 10vh;
+    background-color: blueviolet;
+    color: red;
+    margin: 2vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
